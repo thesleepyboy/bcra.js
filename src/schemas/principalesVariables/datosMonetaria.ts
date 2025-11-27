@@ -5,5 +5,5 @@ interface DetalleMonetaria {
 
 export interface DatosMonetaria {
     idVariable: number;
-    detalle?: DetalleMonetaria;
+    detalle?: DetalleMonetaria[];
 }
