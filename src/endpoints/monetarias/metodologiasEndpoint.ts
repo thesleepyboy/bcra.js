@@ -25,7 +25,7 @@ export class MetodologiasEndpoints implements IMetodologiasEndpoint {
     ): Promise<Schemas.Metodologia[]> {
         const data = await this.client.get<Schemas.ApiResponse<Schemas.Metodologia>, Schemas.MetodologiaParameters>(
             idVariable 
-                ? `estadisticas/v4.0/Metodologia${idVariable}`
+                ? `estadisticas/v4.0/Metodologia/${idVariable}`
                 : "estadisticas/v4.0/Metodologia/",
             queryParams
         )
