@@ -29,7 +29,8 @@ export class MonetariasEndpoint implements IMonetariasEndpoint {
 
             const key = result.descripcion
                 .replace(/\s+/g, '_')
-                .toLowerCase();
+                .toLowerCase()
+                .normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 
             principalesVariables[key!] = result;
         });
