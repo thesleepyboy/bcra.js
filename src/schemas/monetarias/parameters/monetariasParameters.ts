@@ -1,5 +1,5 @@
 export interface MonetariasParameters {
-    idVariable: number;
+    idVariable?: number;
     categoria?: string;
     tipoSerie?: string;
     periodicidad?: string;
