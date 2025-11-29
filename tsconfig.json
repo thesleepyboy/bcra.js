@@ -5,7 +5,7 @@
 
     "module": "nodenext",
     "target": "esnext",
-    "types": [],
+    "types": ["node"],
     "baseUrl": "./",
     // "lib": ["esnext"],
     // "types": ["node"],
