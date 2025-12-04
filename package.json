@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc"
   },
-  "keywords": [],
+  "keywords": ["BCRA", "Wrapper", "API"],
   "author": "thesleepyboy",
   "license": "MIT",
   "type": "module",
