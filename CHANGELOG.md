@@ -11,12 +11,11 @@
     - estadisticas/v4.0/Metodologia
 * Base class **BaseClient**
 
-## [0.9.0] - RELEASED
+## [0.9.0] - RELEASED (2025-12-03)
 
 >[!WARNING]
 >This version is unstable. Please report bugs.
 
-### Will add
+### Added
 * Docstrings
-* Code review of bad practices
-* Endpoints ready for production
+* Endpoints ready for beta production
