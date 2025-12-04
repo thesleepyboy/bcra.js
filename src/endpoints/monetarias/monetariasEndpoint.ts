@@ -9,10 +9,20 @@ export class MonetariasEndpoint implements IMonetariasEndpoint {
         this.client = client;
     }
 
+    /**
+     * 
+     * @returns {Promise<string[]>} `Principales variables` keys
+     */
     public async getPrincipalesVariablesKeysAsync(): Promise<string[]> {
         const data = await this.getPrincipalesVariablesAsync();
         return Object.keys(data);
     }
+
+    /**
+     * 
+     * @param {Schemas.MonetariasParameters} queryParams - Optional parameters.
+     * @returns {Promise<Record<string, Schemas.Monetarias>>} - `Principales variables`
+     */
 
     public async getPrincipalesVariablesAsync(
         queryParams?: Schemas.MonetariasParameters
@@ -42,7 +52,7 @@ export class MonetariasEndpoint implements IMonetariasEndpoint {
      * 
      * @param {number} idVariable - id of the variable
      * @param {Schemas.DatosMonetariasParameters} [queryParams] - Optional parameters.
-     * @returns {Promise<Schemas.DatosMonetaria[]>} - `Variables monetarias`
+     * @returns {Promise<Schemas.DatosMonetaria[]>} `Variables monetarias`
      */
     public async getVariablesMonetariasAsync(
         idVariable: number, 
