@@ -19,3 +19,11 @@
 ### Added
 * Docstrings
 * Endpoints ready for beta production
+
+## [0.9.1] - FATAL ERROR FIX (2025-12-03)
+
+>[!WARNING]
+>This version is unstable. Please report bugs.
+
+### Fixed
+* I forgot to build the package
