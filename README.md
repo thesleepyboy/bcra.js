@@ -21,7 +21,7 @@ yarn add bcra.js
 ## Example
 
 ```typescript
-import BcraClient from "bcra.js";
+import { BcraClient } from "bcra.js";
 
 const client = new BcraClient();
 
@@ -30,7 +30,7 @@ console.log(principalesVariables.reservas_internacionales.ultValorInformado); //
 ```
 
 ## Supported endpoints
-As of v0.9
+As of v0.9.0
 |Endpoint|Status|
 |--------|-------|
 |estadisticas/v4.0/Monetarias|✅Supported|
