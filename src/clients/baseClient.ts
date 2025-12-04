@@ -5,7 +5,7 @@ import https from "https";
 import axios from "axios"
 
 import type { AxiosInstance } from "axios";
-import HttpException from "./httpException.js";
+import { HttpException } from "./httpException.js";
 
 const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
 

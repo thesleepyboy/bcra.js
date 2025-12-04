@@ -12,7 +12,7 @@ interface HttpErrorOptions {
     cause?: unknown;
 }
 
-export default class HttpException extends Error {
+export class HttpException extends Error {
     private readonly data: ErrorResponse;
 
     public readonly status: number;
