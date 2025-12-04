@@ -1,6 +1,6 @@
 export * from "./apiResponse.js";
 
-//#region Principales variables
+//#region Monetarias
 export * from "./monetarias/monetarias.js";
 export * from "./monetarias/datosMonetaria.js";
 export * from "./monetarias/metodologia.js";
