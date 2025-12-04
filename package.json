@@ -4,19 +4,14 @@
   "description": "Basic API wrapper for the Banco Central de la República Argentina (BCRA) API",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watch"
+    "build": "tsc"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "thesleepyboy",
+  "license": "MIT",
   "type": "module",
   "devDependencies": {
-    "@jest/globals": "^30.2.0",
-    "@types/jest": "^30.0.0",
     "@types/node": "^24.10.1",
-    "jest": "^30.2.0",
-    "ts-jest": "^29.4.5",
-    "tsx": "^4.20.6",
     "typescript": "^5.9.3"
   },
   "dependencies": {
