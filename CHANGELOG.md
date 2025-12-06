@@ -27,3 +27,11 @@
 
 ### Fixed
 * I forgot to build the package
+
+## [0.9.2] - ERROR FIX (2025-12-06)
+
+>[!WARNING]
+>This version is unstable. Please report bugs.
+
+### Fixed
+* Added .crt file
