@@ -15,10 +15,10 @@ npm install bcra.js
 # Example
 
 ```typescript
-import {BcraClient} from "./bcraClient";
+import {BcraClient} from "bcra.js";
 
 const client = new BcraClient();
-const principalesVariables = client.getPrincipalesVariablesAsync();
+const principalesVariables = await client.getPrincipalesVariablesAsync();
 
 console.log(principalesVariables);
 ```
